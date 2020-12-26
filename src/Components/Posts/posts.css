@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: gainsboro;
+}
+.site-posts-item {
+  list-style-type: none;
+  padding: 0;
+  width: 1150px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.site-posts-item > li {
+  width: 31.5%;
+  background-color: orangered;
+  margin: 0 10px 0 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.site-posts-item > li > h4 {
+  color: #fff;
+  text-transform: capitalize;
+}
+.site-posts-item  a {
+  display: inline-flex;
+  text-decoration: none;
+  padding: 4px 10px 4px 10px;
+  background-color: white;
+  border-radius: 4px;
+  color: #000;
+}
